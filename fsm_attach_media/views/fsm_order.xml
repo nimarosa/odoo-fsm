@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <record id="fms_order_form_inherit_fsm_attach_media" model="ir.ui.view">
-        <field name="name">fms.order.view.form.inherit</field>
-        <field name="model">fms.order</field>
-        <field name="inherit_id" ref="fieldservice.fms_order_form"/>
+    <record id="fsm_order_form_inherit_fsm_attach_media" model="ir.ui.view">
+        <field name="name">fsm.order.view.form.inherit</field>
+        <field name="model">fsm.order</field>
+        <field name="inherit_id" ref="fieldservice.fsm_order_form"/>
         <field name="arch" type="xml">
-            <xpath expr="//page[@name=execution_page']" position="inside">
+            <xpath expr="//page[@name='execution_page']" position="inside">
                 <group name="fsm_onfield_images">
-                    <field name="fsm_order_onfield_image_ids" />
+                    <field name="fsm_onfield_media_files" />
                 </group>
             </xpath>
         </field>
     </record>
-
 </odoo>

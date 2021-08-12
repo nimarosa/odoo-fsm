@@ -11,10 +11,7 @@
     'license': 'LGPL-3',
     'category': 'Field Service',
     'depends': [
-        ''
-    ],
-    'data': [
-        ''
+        'fieldservice'
     ],
     'installable': True,
     'auto_install': False,

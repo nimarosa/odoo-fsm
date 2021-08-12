@@ -11,7 +11,7 @@
     'license': 'LGPL-3',
     'category': 'Field Service',
     'depends': [
-        'fsm_order'
+        'fieldservice'
     ],
     'data': [
         'views/fsm_order.xml',
