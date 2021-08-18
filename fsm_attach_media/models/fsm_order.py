@@ -7,7 +7,7 @@ from odoo import models, fields
 class FsmOrder(models.Model):
     _inherit = 'fsm.order'
 
-    fsm_onfield_media_files = fields.One2many('fsm.order.onfield_media_file', 'fsm_order_id', string='Imagenes de Campo', store=False)
+    fsm_onfield_media_files = fields.One2many('fsm.order.onfield_media_file', 'fsm_order_id', string='Imagenes de Campo')
 
 
 class FsmOrderOnfieldMediaFile(models.Model):
