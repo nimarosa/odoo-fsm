@@ -15,6 +15,7 @@
     ],
     'data': [
         'views/fsm_order.xml',
+        'security/ir.model.access.csv'
     ],
     'installable': True,
     'auto_install': False,

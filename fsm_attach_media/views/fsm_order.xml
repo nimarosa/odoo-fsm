@@ -5,10 +5,18 @@
         <field name="model">fsm.order</field>
         <field name="inherit_id" ref="fieldservice.fsm_order_form"/>
         <field name="arch" type="xml">
-            <xpath expr="//page[@name='execution_page']" position="inside">
-                <group name="fsm_onfield_images">
-                    <field name="fsm_onfield_media_files" />
-                </group>
+            <xpath expr="//notebook" position="inside">
+                <page name="fsm_onfield_images" string="Imagenes">
+                    <group name="fsm_onfield_images">
+                        <field name="fsm_onfield_media_files" nolabel="1">
+                            <tree>
+                                <field name="file" widget="image" nolabel="1" />
+                                <field name="file_description" />
+                                <field name="create_uid" />
+                            </tree>
+                        </field>
+                    </group>
+                </page>
             </xpath>
         </field>
     </record>

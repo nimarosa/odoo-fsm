@@ -14,6 +14,6 @@ class FsmOrderOnfieldMediaFile(models.Model):
     _name = 'fsm.order.onfield_media_file'
     _description = 'Stores on field uploaded images to the fsm order.'
 
+    fsm_order_id = fields.Many2one('fsm.order', string='Orden de FSM')
     file = fields.Binary(string="Archivo")
     file_description = fields.Char(string="Descripcion")
-    fsm_order_id = fields.Many2one('fsm.order', string='Orden de FSM')

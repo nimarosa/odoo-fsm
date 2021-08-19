@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_fsm_order_onfield_media_file_user,fsm_attach_media.fsm.order.onfield_media_file,model_fsm_order_onfield_media_file,base.group_user,1,1,1,1
