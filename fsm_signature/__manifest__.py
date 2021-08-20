@@ -2,7 +2,7 @@
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
 
 {
-    'name': 'FSM Signature',
+    'name': 'Fieldservice - Signature',
     'version': '13.0.1.0.0',
     'description': 'FSM Module to support signature',
     'summary': 'FSM Sign your FSM orders',
